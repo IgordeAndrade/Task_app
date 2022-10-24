@@ -3,6 +3,7 @@ import 'package:task_app/global/utilities/consts.dart';
 import '../../global/models/todo.dart';
 import '../../global/theme/app_controller.dart';
 
+//TODO: Não há necessidade de essas informações serem dispostas em uma página, poderiam estar num Dialog.
 class TodoInfoPage extends StatefulWidget {
   const TodoInfoPage({super.key});
 

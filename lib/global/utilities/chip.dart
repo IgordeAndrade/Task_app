@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class ChipWidget extends StatefulWidget {
+  //TODO: Na Xports, colocamos o construtor acima das variáveis declaradas.
   final String name;
   const ChipWidget({required this.name, super.key});
 

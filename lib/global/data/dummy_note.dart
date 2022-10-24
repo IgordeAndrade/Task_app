@@ -1,5 +1,6 @@
 import '../models/note.dart';
 
+// TODO: dados mocados devem existir apenas para fins de teste. Essa lista devia ser inicializada como vazia.
 final dummyNotes = [
   Note(
     id: 'p1',

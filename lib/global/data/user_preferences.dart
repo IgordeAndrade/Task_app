@@ -8,6 +8,9 @@ class UserPreferences {
   static late SharedPreferences _preferences;
   static const _keyUser = 'user';
 
+  //TODO: Os dados abaixo não poderiam estar mocados, deviam ser parametrizados e
+  // deveria haver uma lógica para verificar a nulidade. Da forma que está, gera um erro 
+  // que cancela as alterações feitas pelo usuário.
   static const dummyUser = User(
     imagePath:
         'https://previews.123rf.com/images/triken/triken1608/triken160800029/61320775-male-avatar-profile-picture-default-user-avatar-guest-avatar-simply-human-head-vector-illustration-i.jpg?fj=1',

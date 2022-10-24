@@ -115,6 +115,8 @@ class _NoteEditState extends State<NoteEdit> {
                 style: Theme.of(context).textTheme.bodyText1,
               ),
               addVerticalSpace(20),
+              //TODO: As cores abaixo não apresentam qualquer feedback de que foram ou não selecionadas,
+              // o que prejudica a experiência do usuário durante o uso do app.
               Row(
                 children: [
                   GestureDetector(

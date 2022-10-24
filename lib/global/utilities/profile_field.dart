@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
+//TODO: Isolamento bem feito.
 class TextFieldWidget extends StatefulWidget {
+  //TODO: Na Xports, colocamos o construtor acima das variáveis declaradas.
   final int maxLines;
   final String? Function(String?)? validator;
   final String label;

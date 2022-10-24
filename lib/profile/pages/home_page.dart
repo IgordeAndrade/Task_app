@@ -54,6 +54,8 @@ class _HomePageState extends State<HomePage> {
               home: DefaultTabController(
                 length: 2,
                 child: Scaffold(
+                  //TODO: O drawer abaixo é desnecessário, uma vez que o único componente dele é o 
+                  // de mudança de tema, que poderia ser colocado em outro lugar.
                   drawer: Drawer(
                     child: Switch(
                       value: AppController.instance.isDark,

@@ -44,6 +44,7 @@ class ProfileWidget extends StatelessWidget {
                     padding: const EdgeInsets.all(8),
                     color: color,
                     child: Icon(
+                      //TODO: para ficar intuitivo, aqui deveria haver o caminho para a edição, e não na imagem do usuário.
                       isEdit ? Icons.add_a_photo : Icons.edit,
                       color: Colors.white,
                       size: 20,

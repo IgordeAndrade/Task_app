@@ -4,6 +4,7 @@ import '../../global/data/user_preferences.dart';
 import '../../global/itens/profile_widget.dart';
 import 'profile_edit_page.dart';
 
+// TODO: Essa página não está intuitiva, mas está editando corretamente.
 class ProfilePage extends StatefulWidget {
   const ProfilePage({super.key});
 

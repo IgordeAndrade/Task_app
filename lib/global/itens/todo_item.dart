@@ -10,6 +10,7 @@ import '../models/todo.dart';
 import '../provider/todo_list.dart';
 
 class TodoItem extends StatefulWidget {
+  //TODO: Na Xports, colocamos o construtor acima das variáveis declaradas.
   final Todo todo;
 
   const TodoItem(
@@ -22,6 +23,7 @@ class TodoItem extends StatefulWidget {
 }
 
 class _TodoItemState extends State<TodoItem> {
+  //TODO: Variável abaixo não é usada;
   DateTime date = DateTime(2022, 12, 24);
   @override
   Widget build(BuildContext context) {

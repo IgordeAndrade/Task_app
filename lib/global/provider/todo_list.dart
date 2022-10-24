@@ -45,6 +45,7 @@ class TodoList with ChangeNotifier {
       id: hasId ? data['id'] as String : Random().nextDouble().toString(),
       title: data['title'] as String,
       description: data['description'] as String,
+      //TODO: Abaixo houve o uso tanto de aspas simples quanto de aspas duplas. 
       colorTask: (data['colorTask'] == "") ? null : data['colorTask'] as int,
       dateLimit:
           (data['dateLimit'] == null) ? null : data['dateLimit'] as DateTime,

@@ -8,7 +8,10 @@ import '../provider/note_list.dart';
 import '../routes/app_routes.dart';
 import '../utilities/my_button.dart';
 
+//TODO: Esta classe e a classe "TodoItem" poderiam ser mais isoladas  para evitar a repetição de código.
+
 class NoteItem extends StatefulWidget {
+  //TODO: Na Xports, colocamos o construtor acima das variáveis declaradas.
   final Note note;
 
   const NoteItem(
@@ -21,6 +24,7 @@ class NoteItem extends StatefulWidget {
 }
 
 class _NoteItemState extends State<NoteItem> {
+  //TODO: Variável abaixo não é usada;
   TimeOfDay time = TimeOfDay.now();
   @override
   Widget build(BuildContext context) {

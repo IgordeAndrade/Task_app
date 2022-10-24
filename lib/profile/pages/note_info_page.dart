@@ -4,6 +4,7 @@ import 'package:task_app/global/utilities/consts.dart';
 
 import '../../global/models/note.dart';
 
+//TODO: Não há necessidade de essas informações serem dispostas em uma página, poderiam estar num Dialog.
 class NoteInfoPage extends StatefulWidget {
   const NoteInfoPage({super.key});
 

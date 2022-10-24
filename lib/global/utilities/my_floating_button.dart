@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable
 class MyFloatingButton extends StatelessWidget {
+  //TODO: Na Xports, colocamos o construtor acima das variáveis declaradas.
   VoidCallback onPressed;
   IconData icon;
 

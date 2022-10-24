@@ -6,6 +6,8 @@ import '../../global/models/user.dart';
 import '../../global/itens/profile_widget.dart';
 import '../../global/utilities/profile_field.dart';
 
+//TODO: não estpa recuperando os dados já salvos.
+
 class EditProfilePage extends StatefulWidget {
   const EditProfilePage({super.key});
 

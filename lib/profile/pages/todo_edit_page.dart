@@ -21,6 +21,8 @@ class _TodoEditState extends State<TodoEdit> {
   final _formKey = GlobalKey<FormState>();
   final _formData = <String, Object>{};
   DateTime? dateLimit;
+  //TODO: A data mockada abaixo gera um bug no app. Todos os itens que vão ser editados têm por
+  // padrão a data abaixo, mas é salvo com a data atual, gerando uma discrepância.
   DateTime date = DateTime(2022, 12, 24);
   int? colorTask;
 
@@ -127,6 +129,8 @@ class _TodoEditState extends State<TodoEdit> {
                 style: Theme.of(context).textTheme.bodyText1,
               ),
               addVerticalSpace(20),
+              //TODO: As cores abaixo não apresentam qualquer feedback de que foram ou não selecionadas,
+              // o que prejudica a experiência do usuário durante o uso do app.
               Row(
                 children: [
                   GestureDetector(

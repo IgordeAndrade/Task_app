@@ -1,3 +1,4 @@
+//TODO: Isolamento bem feito
 class AppRoutes {
   static const home = '/';
   static const todoPage = '/todo-page';
